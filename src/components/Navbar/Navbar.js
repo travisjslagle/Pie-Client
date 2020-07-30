@@ -10,7 +10,7 @@ const Navbar = (props) => {
         <div>
             <nav>
                 <img id="piePic" src={piePic} alt="pie"/>
-                <Logout />
+                <Logout clearToken={props.clearToken} />
             </nav>
         </div>
     )
